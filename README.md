@@ -1,6 +1,11 @@
 ## vSphere Network Inventory
 PowerShell Module that contains consolidated customized cmdlets designed to make it easier to report on current vSphere network inventory configurations.
 
+## Commands/TODO
+- [x] Get-VMGuestNetworkConfiguration
+- [x] Get-VMHostNetworkConfiguration
+- [ ] Get-DvsConfiguration
+- [ ] Get-VssConfiguration
 
 ## Installation
 
@@ -24,35 +29,35 @@ PowerShell Module that contains consolidated customized cmdlets designed to make
   Import-Module vSphereNetworkInventory
   ```
   * Note: You may need to adjust your ExecutionPolicy
-  
-4. Before running these commands, it is assumed that you have PowerCLI installed and that you have already connected to a vCenter Server or ESXi host/s. The steps to do that are outside the scope of this repo. 
-  
+
+4. Before running these commands, it is assumed that you have PowerCLI installed and that you have already connected to a vCenter Server or ESXi host/s. The steps to do that are outside the scope of this repo.
+
 
 ## Examples
 
 ### Report on ESXi Host Network Configuration for all hosts
 #### Just view the output in GridView
 
-```
+```powershell
 Get-VMHost | Get-VMHostNetworkConfiguration -Verbose | Out-GridView
 ```
 
 #### Generate .CSV report of config
 
-```
+```powershell
 Get-VMHost | Get-VMHostNetworkConfiguration -Verbose | Export-Csv ~\Desktop\esxiNetworkConfigurations.csv -NoTypeInformation -Force
 ```
 
 ### Report on VM Guest Network Configuration for all guests
 #### Just view the output in GridView
 
-```
+```powershell
 Get-VM | Get-VMGuestNetworkConfiguration -Verbose | Out-GridView
 ```
 
 #### Generate .CSV report of config
 
-```
+```powershell
 Get-VM | Get-VMGuestNetworkConfiguration -Verbose | Export-Csv ~\Desktop\guestNetworkConfigurations.csv -NoTypeInformation -Force
 ```
 
@@ -72,4 +77,4 @@ Get-VM | Get-VMGuestNetworkConfiguration -Verbose | Export-Csv ~\Desktop\guestNe
 - [x] Version 4
 - [x] Version 3
 
- 
+
