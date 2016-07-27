@@ -1,12 +1,17 @@
 ## vSphere Network Inventory
 PowerShell Module that contains consolidated customized cmdlets designed to make it easier to report on current vSphere network inventory configurations.
 
-## Commands/TODO
+## TODO
+#### Commands
 - [x] Get-VMGuestNetworkConfiguration
 - [x] Get-VMHostNetworkConfiguration
 - [ ] Get-DvsConfiguration
 - [ ] Get-VssConfiguration
 - [ ] [nsx configuration cmdlets]
+
+#### Features
+- [ ] Pester Tests
+- [ ] Error handling
 
 ## Installation
 
