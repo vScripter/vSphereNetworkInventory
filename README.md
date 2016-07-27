@@ -1,6 +1,7 @@
 ## vSphere Network Inventory
 PowerShell Module that contains consolidated customized cmdlets meant to easily correlate and report on current vSphere Network Inventory &amp; Configurations.
 
+
 ## Installation
 
 1. Clone, Fork or download the .zip of the master source code
@@ -23,3 +24,44 @@ PowerShell Module that contains consolidated customized cmdlets meant to easily 
   Import-Module vSphereNetworkInventory
   ```
   * Note: You may need to adjust your ExecutionPolicy
+  
+4. Before running these commands, it is assumed that you have PowerCLI installed and that you have already connected to a vCenter Server or ESXi host/s. The steps to do that are outside the scope of this repo. 
+  
+
+## Examples
+
+### Report on ESXi Host Network Configuration for all hosts
+#### Just view the output in GridView
+
+`Get-VMHost | Get-VMHostNetworkConfiguration -Verbose | Out-GridView`
+
+#### Generate .CSV report of config
+
+`Get-VMHost | Get-VMHostNetworkConfiguration -Verbose | Export-Csv ~\Desktop\esxiNetworkConfigurations.csv -NoTypeInformation -Force`
+
+### Report on VM Guest Network Configuration for all guests
+#### Just view the output in GridView
+
+`Get-VM | Get-VMGuestNetworkConfiguration -Verbose | Out-GridView`
+
+#### Generate .CSV report of config
+
+`Get-VM | Get-VMGuestNetworkConfiguration -Verbose | Export-Csv ~\Desktop\guestNetworkConfigurations.csv -NoTypeInformation -Force`
+
+
+## Platform Testing
+
+#### vSphere
+- [x] vSphere 6.x
+- [ ] vSphere 5.5
+- [ ] vSphere 5.1
+
+#### PowerCLI
+- [x] PowerCLI 6.3 Release 1
+
+#### Windows PowerShell
+- [ ] Version 5
+- [x] Version 4
+- [x] Version 3
+
+ 
