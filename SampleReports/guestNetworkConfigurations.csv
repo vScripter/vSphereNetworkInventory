@@ -1,0 +1,140 @@
+Name,AdapterType,Label,MacAddress,MacAddressType,PortGroupName,PortGroupType,DVSwitchName,IPAddress,PrefixLength,DHCP,Connected,StartConnected,AllowGuestControl,Shares,ShareLevel,Status
+NSX_Controller_7e932a8f-4379-4350-b28f-8051bb80ee87,vmxnet3,Network adapter 1,00:50:56:9c:9f:81,assigned,10-cmi-mgmt,Distributed,vds-mgmt,192.168.1.112,24,"""""",TRUE,TRUE,TRUE,50,normal,ok
+vlabnsx001,vmxnet3,Network adapter 1,00:50:56:9c:7c:a4,assigned,10-cmi-mgmt,Distributed,vds-mgmt,192.168.1.6|fe80::250:56ff:fe9c:7ca4,24|64,"""""",TRUE,TRUE,TRUE,50,normal,ok
+vlabvcenter,vmxnet3,Network adapter 1,00:0c:29:f4:62:25,generated,10-cmi-mgmt,Distributed,vds-mgmt,192.168.1.15,24,"""""",TRUE,TRUE,TRUE,50,normal,ok
+NSX_Controller_d5adda0a-2d6f-43ca-8405-8d818afd23c2,vmxnet3,Network adapter 1,00:50:56:9c:3b:74,assigned,10-cmi-mgmt,Distributed,vds-mgmt,192.168.1.111,24,"""""",TRUE,TRUE,TRUE,50,normal,ok
+srs-uno-middle-esg-0,vmxnet3,Network adapter 10,00:50:56:9c:36:55,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-middle-esg-0,vmxnet3,Network adapter 9,00:50:56:9c:40:65,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-middle-esg-0,vmxnet3,Network adapter 8,00:50:56:9c:f9:1f,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-middle-esg-0,vmxnet3,Network adapter 7,00:50:56:9c:13:e0,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-middle-esg-0,vmxnet3,Network adapter 6,00:50:56:9c:9a:b0,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-middle-esg-0,vmxnet3,Network adapter 4,00:50:56:9c:ce:f5,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-middle-esg-0,vmxnet3,Network adapter 3,00:50:56:9c:1e:32,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-middle-esg-0,vmxnet3,Network adapter 1,00:50:56:9c:31:58,assigned,vxw-dvs-42-virtualwire-31-sid-5012-srs-uno-transit-left,Distributed,vds-mgmt,192.168.1.3|fe80::250:56ff:fe9c:3158,29|64,"""""",TRUE,TRUE,TRUE,50,normal,ok
+srs-uno-middle-esg-0,vmxnet3,Network adapter 2,00:50:56:9c:60:a5,assigned,vxw-dvs-42-virtualwire-32-sid-5013-srs-uno-transit-right,Distributed,vds-mgmt,192.168.1.11|fe80::250:56ff:fe9c:60a5,29|64,"""""",TRUE,TRUE,TRUE,50,normal,ok
+srs-uno-middle-esg-0,vmxnet3,Network adapter 5,00:50:56:9c:34:aa,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-right-dlr-0,vmxnet3,Network adapter 10,00:50:56:9c:19:e4,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-right-dlr-0,vmxnet3,Network adapter 9,00:50:56:9c:43:ed,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-right-dlr-0,vmxnet3,Network adapter 8,00:50:56:9c:f0:e6,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-right-dlr-0,vmxnet3,Network adapter 7,00:50:56:9c:a9:53,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-right-dlr-0,vmxnet3,Network adapter 6,00:50:56:9c:1d:4b,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-right-dlr-0,vmxnet3,Network adapter 4,00:50:56:9c:f4:a9,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-right-dlr-0,vmxnet3,Network adapter 1,00:50:56:9c:1c:2b,assigned,10-cmi-mgmt,Distributed,vds-mgmt,fe80::250:56ff:fe9c:1c2b,64,"""""",TRUE,TRUE,TRUE,50,normal,ok
+srs-uno-right-dlr-0,vmxnet3,Network adapter 2,00:50:56:9c:23:d9,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-right-dlr-0,vmxnet3,Network adapter 5,00:50:56:9c:cc:5b,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-right-dlr-0,vmxnet3,Network adapter 3,00:50:56:9c:3b:79,assigned,vxw-dvs-42-virtualwire-32-sid-5013-srs-uno-transit-right,Distributed,vds-mgmt,192.168.1.9|fe80::250:56ff:fe9c:3b79,29|64,"""""",TRUE,TRUE,TRUE,50,normal,ok
+srs-uno-left-dlr-0,vmxnet3,Network adapter 10,00:50:56:9c:37:f7,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-left-dlr-0,vmxnet3,Network adapter 9,00:50:56:9c:75:7e,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-left-dlr-0,vmxnet3,Network adapter 8,00:50:56:9c:53:de,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-left-dlr-0,vmxnet3,Network adapter 7,00:50:56:9c:d4:e7,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-left-dlr-0,vmxnet3,Network adapter 6,00:50:56:9c:1a:46,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-left-dlr-0,vmxnet3,Network adapter 3,00:50:56:9c:ea:7c,assigned,vxw-dvs-42-virtualwire-25-sid-5006-srs-uno-app-left,Distributed,vds-mgmt,192.168.20.254|fe80::250:56ff:fe9c:ea7c,24|64,"""""",TRUE,TRUE,TRUE,50,normal,ok
+srs-uno-left-dlr-0,vmxnet3,Network adapter 1,00:50:56:9c:2d:1e,assigned,10-cmi-mgmt,Distributed,vds-mgmt,fe80::250:56ff:fe9c:2d1e,64,"""""",TRUE,TRUE,TRUE,50,normal,ok
+srs-uno-left-dlr-0,vmxnet3,Network adapter 2,00:50:56:9c:be:90,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-left-dlr-0,vmxnet3,Network adapter 5,00:50:56:9c:ff:44,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+srs-uno-left-dlr-0,vmxnet3,Network adapter 4,00:50:56:9c:0e:ef,assigned,vxw-dvs-42-virtualwire-31-sid-5012-srs-uno-transit-left,Distributed,vds-mgmt,192.168.1.1|fe80::250:56ff:fe9c:eef,29|64,"""""",TRUE,TRUE,TRUE,50,normal,ok
+skywalk,e1000,Network adapter 1,00:50:56:9c:5c:f7,assigned,10-cmi-mgmt,Distributed,vds-mgmt,192.168.1.58|fe80::adde:3441:9b3d:90d,24|64,"""""",TRUE,TRUE,TRUE,50,normal,ok
+Edge Gateway-0,vmxnet3,Network adapter 10,00:50:56:9c:19:0c,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+Edge Gateway-0,vmxnet3,Network adapter 9,00:50:56:9c:0b:dc,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+Edge Gateway-0,vmxnet3,Network adapter 8,00:50:56:9c:05:8d,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+Edge Gateway-0,vmxnet3,Network adapter 7,00:50:56:9c:9e:4a,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+Edge Gateway-0,vmxnet3,Network adapter 6,00:50:56:9c:b2:0d,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+Edge Gateway-0,vmxnet3,Network adapter 4,00:50:56:9c:3f:d1,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+Edge Gateway-0,vmxnet3,Network adapter 3,00:50:56:9c:10:0b,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+Edge Gateway-0,vmxnet3,Network adapter 1,00:50:56:9c:d8:45,assigned,Transit-Network,Distributed,vds-mgmt,10.0.0.1|fe80::250:56ff:fe9c:d845,24|64,"""""",TRUE,TRUE,TRUE,50,normal,ok
+Edge Gateway-0,vmxnet3,Network adapter 2,00:50:56:9c:06:e4,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+Edge Gateway-0,vmxnet3,Network adapter 5,00:50:56:9c:4b:52,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+vlabdc001,vmxnet3,Network adapter 1,00:0c:29:9e:b4:ed,generated,10-cmi-mgmt,Distributed,vds-mgmt,192.168.1.10,24,FALSE,TRUE,TRUE,TRUE,50,normal,ok
+Distributed Router-0,vmxnet3,Network adapter 10,00:50:56:9c:e4:65,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+Distributed Router-0,vmxnet3,Network adapter 9,00:50:56:9c:b1:fe,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+Distributed Router-0,vmxnet3,Network adapter 8,00:50:56:9c:7e:e3,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+Distributed Router-0,vmxnet3,Network adapter 7,00:50:56:9c:86:62,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+Distributed Router-0,vmxnet3,Network adapter 6,00:50:56:9c:3f:90,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+Distributed Router-0,vmxnet3,Network adapter 4,00:50:56:9c:e3:29,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+Distributed Router-0,vmxnet3,Network adapter 1,00:50:56:9c:67:b2,assigned,10-cmi-mgmt,Distributed,vds-mgmt,fe80::250:56ff:fe9c:67b2,64,"""""",TRUE,TRUE,TRUE,50,normal,ok
+Distributed Router-0,vmxnet3,Network adapter 2,00:50:56:9c:7f:96,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+Distributed Router-0,vmxnet3,Network adapter 5,00:50:56:9c:66:0d,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+Distributed Router-0,vmxnet3,Network adapter 3,00:50:56:9c:8d:9e,assigned,none,NotAssigned,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,ok
+vlablog001,vmxnet3,Network adapter 1,00:50:56:9c:cc:7e,assigned,10-cmi-mgmt,Distributed,vds-mgmt,192.168.1.17|fe80::250:56ff:fe9c:cc7e,24|64,"""""",TRUE,TRUE,TRUE,50,normal,ok
+Analytics VM,vmxnet3,Network adapter 1,00:50:56:9c:b5:53,assigned,10-cmi-mgmt,Distributed,vds-mgmt,192.168.1.18|fe80::250:56ff:fe9c:b553,24|64,"""""",TRUE,TRUE,TRUE,50,normal,ok
+NSX_Controller_2cf1caf5-ff94-49fa-9f75-0cd6652d1314,vmxnet3,Network adapter 1,00:50:56:9c:9e:dc,assigned,10-cmi-mgmt,Distributed,vds-mgmt,192.168.1.110,24,"""""",TRUE,TRUE,TRUE,50,normal,ok
+UI VM,vmxnet3,Network adapter 1,00:50:56:9c:ac:1d,assigned,10-cmi-mgmt,Distributed,vds-mgmt,192.168.1.16|fe80::250:56ff:fe9c:ac1d,24|64,"""""",TRUE,TRUE,TRUE,50,normal,ok
+482d591b-7787-47e6-bad8-17af589439c3,e1000,Network adapter 1,00:50:56:9c:08:5a,assigned,pg-photon-mgmt,Standard,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+31e53716-753d-4015-bb26-fd16b67ba4cf,e1000,Network adapter 1,00:50:56:9c:eb:2e,assigned,pg-photon-mgmt,Standard,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+ESXCloud-Installer,e1000,Network adapter 1,00:50:56:9c:dd:8d,assigned,10-cmi-mgmt,Distributed,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+vesx-photon-02,vmxnet3,Network adapter 1,00:50:56:9c:fa:11,assigned,10-cmi-mgmt,Distributed,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+vesx-photon-02,vmxnet3,Network adapter 2,00:50:56:9c:d4:44,assigned,photon-tenant,Distributed,vds-compute,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+logi-dev-node2,vmxnet3,Network adapter 1,00:50:56:9c:7c:22,assigned,10-cmi-mgmt,Distributed,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+TinyCore-Web-left,e1000,Network adapter 1,00:50:56:9c:94:87,assigned,vxw-dvs-42-virtualwire-27-sid-5008-srs-uno-web-left,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesx-photon-03,vmxnet3,Network adapter 1,00:50:56:9c:a8:73,assigned,10-cmi-mgmt,Distributed,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+vesx-photon-03,vmxnet3,Network adapter 2,00:50:56:9c:38:8e,assigned,photon-tenant,Distributed,vds-compute,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+vesxi-vsan-10.160.60.27,vmxnet3,Network adapter 1,00:50:56:9c:11:24,assigned,S01-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+vesxi-vsan-10.160.60.27,vmxnet3,Network adapter 2,00:50:56:9c:d0:2f,assigned,S01-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+Tiny-App-Right,e1000,Network adapter 1,00:50:56:9c:09:5c,assigned,vxw-dvs-42-virtualwire-28-sid-5009-srs-uno-app-right,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.160.60.25,vmxnet3,Network adapter 1,00:50:56:9c:75:44,assigned,S01-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.160.60.25,vmxnet3,Network adapter 2,00:50:56:9c:64:75,assigned,S01-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+ucspe01,pcnet32,Network adapter 1,00:50:56:9c:3f:bc,assigned,10-cmi-mgmt,Distributed,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+ucspe01,pcnet32,Network adapter 2,00:50:56:9c:55:2b,assigned,10-cmi-mgmt,Distributed,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+ucspe01,pcnet32,Network adapter 3,00:50:56:9c:1b:2d,assigned,10-cmi-mgmt,Distributed,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+logi-dev-node3,vmxnet3,Network adapter 1,00:50:56:9c:b0:07,assigned,10-cmi-mgmt,Distributed,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+vesxi-vsan-10.60.60.29,vmxnet3,Network adapter 1,00:50:56:9c:75:03,assigned,S02-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.60.60.29,vmxnet3,Network adapter 2,00:50:56:9c:29:3c,assigned,S02-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+New Virtual Machine,vmxnet3,Network adapter 1,00:50:56:9c:97:18,assigned,101-csr-zone01,Distributed,vds-compute,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+vesxi-vsan-10.60.60.26,vmxnet3,Network adapter 1,00:50:56:9c:51:ec,assigned,S02-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.60.60.26,vmxnet3,Network adapter 2,00:50:56:9c:bf:50,assigned,S02-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.60.60.28,vmxnet3,Network adapter 1,00:50:56:9c:56:b6,assigned,S02-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+vesxi-vsan-10.60.60.28,vmxnet3,Network adapter 2,00:50:56:9c:0f:0b,assigned,S02-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+vesxi-vsan-10.60.176.26,vmxnet3,Network adapter 1,00:50:56:9c:49:c1,assigned,S02-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.60.176.26,vmxnet3,Network adapter 2,00:50:56:9c:b7:db,assigned,S02-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.60.176.24,vmxnet3,Network adapter 1,00:50:56:9c:f7:a6,assigned,S02-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+vesxi-vsan-10.60.176.24,vmxnet3,Network adapter 2,00:50:56:9c:e9:96,assigned,S02-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+TinyCore-App-left,e1000,Network adapter 1,00:50:56:9c:91:9e,assigned,vxw-dvs-42-virtualwire-25-sid-5006-srs-uno-app-left,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.160.176.26,vmxnet3,Network adapter 1,00:50:56:9c:ed:8f,assigned,S01-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.160.176.26,vmxnet3,Network adapter 2,00:50:56:9c:69:65,assigned,S01-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.160.60.28,vmxnet3,Network adapter 1,00:50:56:9c:4a:ca,assigned,S01-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.160.60.28,vmxnet3,Network adapter 2,00:50:56:9c:00:e5,assigned,S01-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.60.176.21,vmxnet3,Network adapter 1,00:50:56:9c:44:c8,assigned,S02-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+vesxi-vsan-10.60.176.21,vmxnet3,Network adapter 2,00:50:56:9c:d2:5b,assigned,S02-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+vesxi-vsan-10.160.176.25,vmxnet3,Network adapter 1,00:50:56:9c:a1:9b,assigned,S01-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.160.176.25,vmxnet3,Network adapter 2,00:50:56:9c:af:a7,assigned,S01-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.60.60.24,vmxnet3,Network adapter 1,00:50:56:9c:a5:66,assigned,S02-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.60.60.24,vmxnet3,Network adapter 2,00:50:56:9c:6d:fb,assigned,S02-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesx-photon-01,vmxnet3,Network adapter 1,00:50:56:9c:ed:2a,assigned,10-cmi-mgmt,Distributed,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+vesx-photon-01,vmxnet3,Network adapter 2,00:50:56:9c:03:a9,assigned,photon-tenant,Distributed,vds-compute,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+Tiny-DB-Right,e1000,Network adapter 1,00:50:56:9c:ff:ec,assigned,vxw-dvs-42-virtualwire-29-sid-5010-srs-uno-db-right,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+TinyCore-DB-left,e1000,Network adapter 1,00:50:56:9c:ea:ae,assigned,vxw-dvs-42-virtualwire-26-sid-5007-srs-uno-db-left,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.160.176.23,vmxnet3,Network adapter 1,00:50:56:9c:d7:75,assigned,S01-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.160.176.23,vmxnet3,Network adapter 2,00:50:56:9c:bb:3d,assigned,S01-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.60.176.23,vmxnet3,Network adapter 1,00:50:56:9c:6e:62,assigned,S02-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.60.176.23,vmxnet3,Network adapter 2,00:50:56:9c:44:f2,assigned,S02-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.160.176.21,vmxnet3,Network adapter 1,00:50:56:9c:b2:a4,assigned,S01-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.160.176.21,vmxnet3,Network adapter 2,00:50:56:9c:71:43,assigned,S01-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesx-photon-04,vmxnet3,Network adapter 1,00:50:56:9c:84:b0,assigned,10-cmi-mgmt,Distributed,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+vesx-photon-04,vmxnet3,Network adapter 2,00:50:56:9c:f3:d4,assigned,photon-tenant,Distributed,vds-compute,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+Test,vmxnet3,Network adapter 1,00:50:56:9c:26:15,assigned,10-cmi-mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+Tiny-Web-Right,e1000,Network adapter 1,00:50:56:9c:f3:a9,assigned,vxw-dvs-42-virtualwire-30-sid-5011-srs-uno-web-right,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.160.60.29,vmxnet3,Network adapter 2,00:50:56:9c:9b:78,assigned,S01-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.160.60.29,vmxnet3,Network adapter 1,00:50:56:9c:81:4d,assigned,S01-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.160.60.26,vmxnet3,Network adapter 1,00:50:56:9c:a0:61,assigned,S01-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.160.60.26,vmxnet3,Network adapter 2,00:50:56:9c:88:31,assigned,S01-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+csr1kv01,vmxnet3,Network adapter 3,00:50:56:9c:61:3f,assigned,102-csr-zone02,Distributed,vds-compute,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+csr1kv01,vmxnet3,Network adapter 1,00:50:56:9c:48:0f,assigned,10-csr-vrf-mgmt,Distributed,vds-compute,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+csr1kv01,vmxnet3,Network adapter 2,00:50:56:9c:00:00,assigned,101-csr-zone01,Distributed,vds-compute,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+vesxi-vsan-10.60.60.27,vmxnet3,Network adapter 1,00:50:56:9c:53:f2,assigned,S02-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.60.60.27,vmxnet3,Network adapter 2,00:50:56:9c:8b:0b,assigned,S02-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vlabdc002,vmxnet3,Network adapter 1,00:50:56:9c:26:a6,assigned,10-cmi-mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+logi-dev-node1,vmxnet3,Network adapter 1,00:50:56:9c:30:45,assigned,10-cmi-mgmt,Distributed,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+vesxi-vsan-10.60.176.25,vmxnet3,Network adapter 1,00:50:56:9c:2b:75,assigned,S02-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.60.176.25,vmxnet3,Network adapter 2,00:50:56:9c:c0:ba,assigned,S02-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.160.176.24,vmxnet3,Network adapter 1,00:50:56:9c:b0:80,assigned,S01-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.160.176.24,vmxnet3,Network adapter 2,00:50:56:9c:92:f8,assigned,S01-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.160.60.24,vmxnet3,Network adapter 1,00:50:56:9c:71:92,assigned,S01-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.160.60.24,vmxnet3,Network adapter 2,00:50:56:9c:a3:e4,assigned,S01-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.60.176.22,vmxnet3,Network adapter 1,00:50:56:9c:2c:2d,assigned,S02-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.60.176.22,vmxnet3,Network adapter 2,00:50:56:9c:87:99,assigned,S02-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.160.176.22,vmxnet3,Network adapter 1,00:50:56:9c:17:6c,assigned,S01-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.160.176.22,vmxnet3,Network adapter 2,00:50:56:9c:c0:47,assigned,S01-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
+vesxi-vsan-10.60.60.25,vmxnet3,Network adapter 1,00:50:56:9c:06:f3,assigned,S02-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+vesxi-vsan-10.60.60.25,vmxnet3,Network adapter 2,00:50:56:9c:10:cb,assigned,S02-HCP-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",TRUE,TRUE,TRUE,50,normal,ok
+VLABDJ003,vmxnet3,Network adapter 1,00:50:56:9c:84:6e,assigned,Disconnected,Standard,vds-mgmt,"""""","""""","""""",FALSE,FALSE,TRUE,50,normal,untried
+VLABJB002,vmxnet3,Network adapter 1,00:50:56:9c:cf:b1,assigned,S01-HCM-Mgmt,Distributed,vds-mgmt,"""""","""""","""""",FALSE,TRUE,TRUE,50,normal,untried
