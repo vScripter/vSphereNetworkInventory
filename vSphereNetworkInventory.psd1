@@ -9,7 +9,7 @@
 @{
 
 # Script module or binary module file associated with this manifest.
-RootModule = 'vSphereNetworkModule.psm1'
+RootModule = 'vSphereNetworkInventory.psm1'
 
 # Version number of this module.
 ModuleVersion = '1.0'
@@ -21,7 +21,7 @@ GUID = '79d3fe6c-02d2-4bf9-ad58-34083713c12e'
 Author = 'Kevin M. Kirkpatrick'
 
 # Company or vendor of this module
-CompanyName = 'Unknown'
+CompanyName = ''
 
 # Copyright statement for this module
 Copyright = '(c) 2016 Kevin M. Kirkpatrick. All rights reserved.'
