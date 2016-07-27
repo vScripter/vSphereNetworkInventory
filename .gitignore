@@ -1,0 +1,5 @@
+# Ignored extensions
+*.temppoint.*
+*.psproj.psbuild
+*.psbuild
+*.DS_STORE
