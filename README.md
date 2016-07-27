@@ -1,5 +1,5 @@
 ## vSphere Network Inventory
-PowerShell Module that contains consolidated customized cmdlets meant to easily correlate and report on current vSphere Network Inventory &amp; Configurations.
+PowerShell Module that contains consolidated customized cmdlets designed to make it easier to report on current vSphere network inventory configurations.
 
 
 ## Installation
