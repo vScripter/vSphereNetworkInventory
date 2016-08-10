@@ -43,28 +43,22 @@ PowerShell Module that contains consolidated customized cmdlets designed to make
 ## Examples
 
 ### Report on ESXi Host Network Configuration for all hosts
-#### Just view the output in GridView
 
 ```powershell
+# Just view the output in GridView
 Get-VMHost | Get-VMHostNetworkConfiguration -Verbose | Out-GridView
-```
 
-#### Generate .CSV report of config
-
-```powershell
+# export to CSV
 Get-VMHost | Get-VMHostNetworkConfiguration -Verbose | Export-Csv "$home\Desktop\esxiNetworkConfigurations.csv" -NoTypeInformation -Force
 ```
 
 ### Report on VM Guest Network Configuration for all guests
-#### Just view the output in GridView
 
 ```powershell
+# Just view the output in GridView
 Get-VM | Get-VMGuestNetworkConfiguration -Verbose | Out-GridView
-```
 
-#### Generate .CSV report of config
-
-```powershell
+# export to CSV
 Get-VM | Get-VMGuestNetworkConfiguration -Verbose | Export-Csv "$home\Desktop\guestNetworkConfigurations.csv" -NoTypeInformation -Force
 ```
 
@@ -72,6 +66,7 @@ Get-VM | Get-VMGuestNetworkConfiguration -Verbose | Export-Csv "$home\Desktop\gu
 ```powershell
 # format output to view in console
 Get-VMHostVtepInterface -Verbose | Format-Table -AutoSize
+
 # export to CSV
 Get-VMHostVtepInterface -Verbose | Export-Csv "$home\Desktop\esxiVtepInterfaces.csv" -NoTypeInformation -Force
 ```
