@@ -12,7 +12,7 @@
 RootModule = 'vSphereNetworkInventory.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.0'
+ModuleVersion = '1.1.0.0'
 
 # ID used to uniquely identify this module
 GUID = '79d3fe6c-02d2-4bf9-ad58-34083713c12e'

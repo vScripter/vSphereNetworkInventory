@@ -7,6 +7,7 @@ PowerShell Module that contains consolidated customized cmdlets designed to make
 - [x] Get-VMHostNetworkConfiguration
 - [ ] Get-DvsConfiguration
 - [ ] Get-VssConfiguration
+- [x] Get-VMHostVtepInterface
 - [ ] [nsx configuration cmdlets]
 
 #### Features

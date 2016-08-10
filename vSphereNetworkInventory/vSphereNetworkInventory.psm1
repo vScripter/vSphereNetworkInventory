@@ -1,4 +1,111 @@
 
+function Get-VMHostVtepInterface {
+
+<#
+.SYNOPSIS
+    Gather VTEP interface inventory from all ESXi hosts
+.DESCRIPTION
+    Gather VTEP interface inventory from all ESXi hosts.
+    This function was written with scale and speed in mind. It pull a host inventory using API calls and then unrolls API properties and
+    assigned them to a PSCustomObject.
+
+	Sample Output
+
+VMHost       : esx001.vlab.local
+Interface    : vmk2
+MacAddress   : 00:50:56:66:4b:1c
+IPv4Address  : 192.168.40.3
+SubnetMask   : 255.255.255.0
+DHCP         : False
+MTU          : 1600
+TsoEnabled   : True
+NetworkStack : vxlan
+PinnedPnic   :
+vCenter      : vcenter.vlab.local
+
+.OUTPUTS
+    [System.Management.Automation.PSCustomObject]
+.NOTES
+	Author: Kevin Kirkpatrick
+  	Email: Kevin(at)vmotioned(dot)com
+    Web: https://github.com/vScripter
+	Version: 1.0
+  	Last Updated: 20150810
+	Last Updated By: K. Kirkpatrick
+  	Last Update Notes:
+   	- Created
+#>
+
+    [OutputType([System.Management.Automation.PSCustomObject])]
+    [CmdletBinding()]
+    param()
+
+    BEGIN {
+
+        Write-Verbose -Message "[Get-VMHostVtepInterface] Gathering VMHost Inventory"
+        try {
+
+            $vmHostInventory = $null
+            $vmHostInventory = Get-View -ViewType HostSystem -Property Name,Config -ErrorAction 'Stop'
+
+        } catch {
+
+            throw "[Get-VMHostVtepInterface][ERROR] Could not gather VMHost inventory using 'Get-View'. $_"
+
+        } # end try/catch
+
+    } # end BEGIN block
+
+    PROCESS {
+
+        foreach ($vmHost in $vmHostInventory) {
+
+            $vtepInterfaceQuery = $null
+            $vtepInterfaceQuery = $vmHost.Config.Network.Vnic | Where-Object {$_.Spec.NetStackInstanceKey -eq 'vxlan'}
+
+            $vmHostName = $null
+            $vmHostName = $vmHost.Name
+
+            [uri]$vCenter = $null
+            $vCenter = $vmHost.Client.ServiceUrl
+
+            Write-Verbose -Message "[Get-VMHostVtepInterface] Gathering VTEP VMkernel Interfaces for host {$vmHostName}"
+
+            foreach ($vtep in $vtepInterfaceQuery) {
+
+                $objVtepInt = @()
+                $objVtepInt = [PSCustomObject] @{
+                    VMHost       = $vmHostName
+                    Interface    = $vtep.Device
+                    MacAddress   = $vtep.Spec.Mac
+                    IPv4Address  = $vtep.Spec.Ip.IpAddress
+                    SubnetMask   = $vtep.Spec.Ip.SubnetMask
+                    DHCP         = $vtep.Spec.Ip.Dhcp
+                    MTU          = $vtep.Spec.Mtu
+                    TsoEnabled   = $vtep.Spec.TsoEnabled
+                    NetworkStack = $vtep.Spec.NetStackInstanceKey
+                    PinnedPnic   = $vtep.Spec.PinnedPnic
+                    vCenter      = $vCenter.Host
+                } # end $objVtepInt
+
+                $objVtepInt
+
+            } # end foreach $vtep
+
+        } # end foreach $vmHost
+
+    } # end PROCESS block
+
+    END {
+
+        Write-Verbose -Message "[Get-VMHostVtepInterface] Processing complete"
+
+    } # end END block
+
+} # end function Get-VMHostVtepInterface
+
+Export-ModuleMember -Function Get-VMHostVtepInterface
+
 
 function Get-VMHostNetworkConfiguration {
 
@@ -278,7 +385,7 @@ VSSPortGroupVLAN :
 
 	END {
 
-		Write-Verbose -Message '[Get-VMHostNetworkConfiguration] Processing Complete.'
+		Write-Verbose -Message '[Get-VMHostNetworkConfiguration] Processing Complete'
 
 	} # end END block
 
@@ -489,6 +596,6 @@ Status            : ok
 
     } # end PROCESS block
 
-    } # end function Get-VMGuestNetworkConfiguration
+} # end function Get-VMGuestNetworkConfiguration
 
 Export-ModuleMember -Function Get-VMGuestNetworkConfiguration
